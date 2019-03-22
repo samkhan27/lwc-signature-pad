@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/async": [
+                "async/async.js"
+            ],
+            "c/lookup": [
+                "lookup/lookup.js"
+            ],
+            "c/lwc-form": [
+                "lwcForm/lwcForm.js"
+            ],
+            "c/lwc-form-element": [
+                "lwcFormElement/lwcFormElement.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
+            ],
+            "c/search-result": [
+                "searchResult/searchResult.js"
+            ],
+            "c/signature-pad": [
+                "signaturePad/signaturePad.js"
+            ],
+            "c/utils": [
+                "utils/utils.js"
+            ],
+            "c/container": [
+                "container/container.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}

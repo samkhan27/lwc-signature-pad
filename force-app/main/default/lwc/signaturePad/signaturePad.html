@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Signature Pad" icon-name="custom:custom19">
+        <div class="slds-m-around_medium">
+            <canvas class="signature-pad" width={canvasWidth} height={canvasHeight} lwc:dom="manual"></canvas>
+        </div>
+    </lightning-card>
+    <lightning-button label=print onclick={handleClick}></lightning-button>
+</template>
